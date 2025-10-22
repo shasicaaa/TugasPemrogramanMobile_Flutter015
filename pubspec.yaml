@@ -1,0 +1,29 @@
+name: breakfast_web
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Sesuaikan dengan versi SDK Anda
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # TAMBAHKAN BARIS DI BAWAH INI
+  google_fonts: ^6.2.1 
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Daftarkan folder aset Anda di sini
+  assets:
+    - assets/images/
